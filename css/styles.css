@@ -1,0 +1,24 @@
+:root {
+  /* Primary */
+  --red: hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 51%);
+  /* Accent */
+  --blue: hsl(248, 32%, 49%);
+  /* Neutral */
+  --dark-blue: hsl(249, 10%, 26%);
+  --grayish-blue: hsl(246, 25%, 77%);
+  --fonts: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fonts);
+  font-size: 16px;
+  background-color: var(--red);
+  overflow: hidden;
+}
